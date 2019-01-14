@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation" parallel="tests" thread-count="12">
+
+    <test name="Search Android">
+
+        <parameter name="platform" value="Android"/>
+
+        <classes>
+            <class name="tests.SearchResultsTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Search IOS">
+
+        <parameter name="platform" value="IOS"/>
+
+        <classes>
+            <class name="tests.SearchResultsTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Checking Android">
+
+        <parameter name="platform" value="Android" />
+
+        <classes>
+            <class name="tests.CheckingRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Checking IOS">
+
+        <parameter name="platform" value="IOS" />
+
+        <classes>
+            <class name="tests.CheckingRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Savings Android">
+
+        <parameter name="platform" value="Android" />
+
+        <classes>
+            <class name="tests.SavingsRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Savings IOS">
+
+        <parameter name="platform" value="IOS" />
+
+        <classes>
+            <class name="tests.SavingsRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Credit Cards Android">
+
+        <parameter name="platform" value="Android" />
+
+        <classes>
+            <class name="tests.CreditCardsRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Credit Cards IOS">
+
+        <parameter name="platform" value="IOS" />
+
+        <classes>
+            <class name="tests.CreditCardsRelatedTest" />
+        </classes>
+
+    </test>
+
+    <!-- ================================================= -->
+
+    <test name="Search Android 2">
+
+        <parameter name="platform" value="Android"/>
+
+        <classes>
+            <class name="tests.SearchResultsTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Search IOS 2">
+
+        <parameter name="platform" value="IOS"/>
+
+        <classes>
+            <class name="tests.SearchResultsTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Checking Android 2">
+
+        <parameter name="platform" value="Android" />
+
+        <classes>
+            <class name="tests.CheckingRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Checking IOS 2">
+
+        <parameter name="platform" value="IOS" />
+
+        <classes>
+            <class name="tests.CheckingRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Savings Android 2">
+
+        <parameter name="platform" value="Android" />
+
+        <classes>
+            <class name="tests.SavingsRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Savings IOS 2">
+
+        <parameter name="platform" value="IOS" />
+
+        <classes>
+            <class name="tests.SavingsRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Credit Cards Android 2">
+
+        <parameter name="platform" value="Android" />
+
+        <classes>
+            <class name="tests.CreditCardsRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Credit Cards IOS 2">
+
+        <parameter name="platform" value="IOS" />
+
+        <classes>
+            <class name="tests.CreditCardsRelatedTest" />
+        </classes>
+
+    </test>
+
+    <!-- ================================================= -->
+
+    <test name="Search Android 3">
+
+        <parameter name="platform" value="Android"/>
+
+        <classes>
+            <class name="tests.SearchResultsTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Search IOS 3">
+
+        <parameter name="platform" value="IOS"/>
+
+        <classes>
+            <class name="tests.SearchResultsTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Checking Android 3">
+
+        <parameter name="platform" value="Android" />
+
+        <classes>
+            <class name="tests.CheckingRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Checking IOS 3">
+
+        <parameter name="platform" value="IOS" />
+
+        <classes>
+            <class name="tests.CheckingRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Savings Android 3">
+
+        <parameter name="platform" value="Android" />
+
+        <classes>
+            <class name="tests.SavingsRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Savings IOS 3">
+
+        <parameter name="platform" value="IOS" />
+
+        <classes>
+            <class name="tests.SavingsRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Credit Cards Android 3">
+
+        <parameter name="platform" value="Android" />
+
+        <classes>
+            <class name="tests.CreditCardsRelatedTest" />
+        </classes>
+
+    </test>
+
+    <test name="Credit Cards IOS 3">
+
+        <parameter name="platform" value="IOS" />
+
+        <classes>
+            <class name="tests.CreditCardsRelatedTest" />
+        </classes>
+
+    </test>
+
+</suite>

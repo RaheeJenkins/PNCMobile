@@ -1,0 +1,2175 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_Automation">
+              <span class="suite-name border-failed">Test Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_Automation">
+                    <span>C:\Users\Rahee\IdeaProjects\PNCMobile\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_Automation">
+                    <span class="test-stats">24 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_Automation">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_Automation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_Automation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_Automation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_Automation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 10 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Test_Automation" class="hide-methods failed suite-Test_Automation"> (hide)</a> <!-- hide-methods failed suite-Test_Automation -->
+                      <a href="#" panel-name="suite-Test_Automation" class="show-methods failed suite-Test_Automation"> (show)</a> <!-- show-methods failed suite-Test_Automation -->
+                    </span>
+                    <div class="method-list-content failed suite-Test_Automation">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CheckingRelatedTest" hash-for-method="user_should_be_on_checking_page">user_should_be_on_checking_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CreditCardsRelatedTest" hash-for-method="user_should_be_on_credit_cards_page">user_should_be_on_credit_cards_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CreditCardsRelatedTest" hash-for-method="user_should_be_on_credit_cards_page">user_should_be_on_credit_cards_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CreditCardsRelatedTest" hash-for-method="user_should_be_on_credit_cards_page">user_should_be_on_credit_cards_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SavingsRelatedTest" hash-for-method="user_should_be_on_savings_page">user_should_be_on_savings_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SavingsRelatedTest" hash-for-method="user_should_be_on_savings_page">user_should_be_on_savings_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SavingsRelatedTest" hash-for-method="user_should_be_on_savings_page">user_should_be_on_savings_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SavingsRelatedTest" hash-for-method="user_should_be_on_savings_page">user_should_be_on_savings_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SavingsRelatedTest" hash-for-method="user_should_be_on_savings_page">user_should_be_on_savings_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SearchResultsTest" hash-for-method="verify_item_displayed_in_search_results_list">verify_item_displayed_in_search_results_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Test_Automation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Automation" class="hide-methods passed suite-Test_Automation"> (hide)</a> <!-- hide-methods passed suite-Test_Automation -->
+                      <a href="#" panel-name="suite-Test_Automation" class="show-methods passed suite-Test_Automation"> (show)</a> <!-- show-methods passed suite-Test_Automation -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Automation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CheckingRelatedTest" hash-for-method="user_should_be_on_checking_page">user_should_be_on_checking_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CheckingRelatedTest" hash-for-method="user_should_be_on_checking_page">user_should_be_on_checking_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CheckingRelatedTest" hash-for-method="user_should_be_on_checking_page">user_should_be_on_checking_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CheckingRelatedTest" hash-for-method="user_should_be_on_checking_page">user_should_be_on_checking_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CheckingRelatedTest" hash-for-method="user_should_be_on_checking_page">user_should_be_on_checking_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CreditCardsRelatedTest" hash-for-method="user_should_be_on_credit_cards_page">user_should_be_on_credit_cards_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CreditCardsRelatedTest" hash-for-method="user_should_be_on_credit_cards_page">user_should_be_on_credit_cards_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CreditCardsRelatedTest" hash-for-method="user_should_be_on_credit_cards_page">user_should_be_on_credit_cards_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SavingsRelatedTest" hash-for-method="user_should_be_on_savings_page">user_should_be_on_savings_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SearchResultsTest" hash-for-method="verify_item_displayed_in_search_results_list">verify_item_displayed_in_search_results_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SearchResultsTest" hash-for-method="verify_item_displayed_in_search_results_list">verify_item_displayed_in_search_results_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SearchResultsTest" hash-for-method="verify_item_displayed_in_search_results_list">verify_item_displayed_in_search_results_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SearchResultsTest" hash-for-method="verify_item_displayed_in_search_results_list">verify_item_displayed_in_search_results_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SearchResultsTest" hash-for-method="verify_item_displayed_in_search_results_list">verify_item_displayed_in_search_results_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Automation" class="panel Test_Automation">
+          <div class="suite-Test_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.SearchResultsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_item_displayed_in_search_results_list">
+                  </a> <!-- verify_item_displayed_in_search_results_list -->
+                  <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class=&apos;nav-toggle&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at pages.BankingDropDownPage.click_on_hamburger_icon(BankingDropDownPage.java:30)
+	at pages.HomePage.click_on_hamburger_icon(HomePage.java:41)
+	at tests.SearchResultsTest.verify_item_displayed_in_search_results_list(SearchResultsTest.java:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.xpath: //*[@class=&apos;nav-toggle&apos;]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 23 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3e18fcd9 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 30 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;nav-toggle&apos;]&quot;}
+  (Session info: chrome=71.0.3578.99)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os=&apos;android&apos;, newSessionWaitTimeout: 300.0, platformName: Android, testName: verify_item_displayed_in_se...}, device.category: PHONE, device.majorVersion: 5, device.manufacture: HUAWEI, device.model: ALE-L02, device.name: HUAWEI ALE-L02, device.os: Android, device.screenSize: 720x1280, device.serialNumber: N2K7N16811000808, device.version: 5.0.1, deviceQuery: @os=&apos;android&apos;, deviceUDID: N2K7N16811000808, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7783, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: verify_item_displayed_in_se..., udid: N2K7N16811000808, useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-14_17-11-10-528863f5-d1cf-4031-88c7-00f41a0f8ecf
+*** Element info: {Using=xpath, value=//*[@class=&apos;nav-toggle&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 32 more
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-failed -->
+          <div class="suite-Test_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.SavingsRelatedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_savings_page">
+                  </a> <!-- user_should_be_on_savings_page -->
+                  <span class="method-name">user_should_be_on_savings_page</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class=&apos;nav-toggle&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at pages.BankingDropDownPage.click_on_hamburger_icon(BankingDropDownPage.java:30)
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.xpath: //*[@class=&apos;nav-toggle&apos;]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 22 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@25a9653c (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 29 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;nav-toggle&apos;]&quot;}
+  (Session info: chrome=71.0.3578.99)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os=&apos;android&apos;, newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_savings_page}, device.category: PHONE, device.majorVersion: 5, device.manufacture: HUAWEI, device.model: HUAWEI GRA-L09, device.name: HUAWEI A0141, device.os: Android, device.screenSize: 1080x1920, device.serialNumber: S7M0215829004355, device.version: 5.0, deviceQuery: @os=&apos;android&apos;, deviceUDID: S7M0215829004355, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7782, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_savings_page, udid: S7M0215829004355, useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-14_17-11-10-cba343f9-d40f-475b-831a-15b884c0cf63
+*** Element info: {Using=xpath, value=//*[@class=&apos;nav-toggle&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 31 more
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_savings_page">
+                  </a> <!-- user_should_be_on_savings_page -->
+                  <span class="method-name">user_should_be_on_savings_page</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.xpath: //h3[text()=&apos;Is this your zip code?&apos;]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at io.appium.java_client.ios.IOSElement$$EnhancerByCGLIB$$d311658.isDisplayed(&lt;generated&gt;)
+	at pages.banking.SavingsMainPage.if_zip_code_is_present_then_handle(SavingsMainPage.java:38)
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:34)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@9e54244 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 24 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//h3[text()=&apos;Is this your zip code?&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {PNC: PNC_IOS_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, automationName: XCUITest, browserName: safari, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_IOS_Web, browserName: safari, deviceQuery: @os=&apos;ios&apos;, newSessionWaitTimeout: 300.0, platformName: iOS, testName: user_should_be_on_savings_page}, device.category: TABLET, device.majorVersion: 11, device.manufacture: Apple, device.model: iPad (5th generation), device.name: iPad B0203, device.os: iOS, device.screenSize: 1536x2048, device.serialNumber: 76044e6bceb3d65694fc7bc3281..., device.version: 11.1, deviceQuery: @os=&apos;ios&apos;, deviceUDID: 76044e6bceb3d65694fc7bc3281..., dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7779, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: IOS, platformName: IOS, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_savings_page, udid: 76044e6bceb3d65694fc7bc3281..., useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-14_17-11-10-13e57929-c262-40e3-ae61-c18625049dfc
+*** Element info: {Using=xpath, value=//h3[text()=&apos;Is this your zip code?&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 26 more
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_savings_page">
+                  </a> <!-- user_should_be_on_savings_page -->
+                  <span class="method-name">user_should_be_on_savings_page</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.xpath: //h3[text()=&apos;Is this your zip code?&apos;]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at io.appium.java_client.ios.IOSElement$$EnhancerByCGLIB$$d311658.isDisplayed(&lt;generated&gt;)
+	at pages.banking.SavingsMainPage.if_zip_code_is_present_then_handle(SavingsMainPage.java:38)
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:34)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@36b3db12 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 24 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//h3[text()=&apos;Is this your zip code?&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {PNC: PNC_IOS_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, automationName: XCUITest, browserName: safari, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_IOS_Web, browserName: safari, deviceQuery: @os=&apos;ios&apos;, newSessionWaitTimeout: 300.0, platformName: iOS, testName: user_should_be_on_savings_page}, device.category: PHONE, device.majorVersion: 12, device.manufacture: Apple, device.model: iPhone X, device.name: appleId’s iPhone, device.os: iOS, device.screenSize: 1125x2436, device.serialNumber: 91368220f9115386c03c99d720b..., device.version: 12.0, deviceQuery: @os=&apos;ios&apos;, deviceUDID: 91368220f9115386c03c99d720b..., dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-9, fullReset: false, gridNodePort: 7783, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: IOS, platformName: IOS, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_savings_page, udid: 91368220f9115386c03c99d720b..., useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-14_17-12-14-ddebddcc-b27c-41ed-a3bb-abb4d632058c
+*** Element info: {Using=xpath, value=//h3[text()=&apos;Is this your zip code?&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 26 more
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_savings_page">
+                  </a> <!-- user_should_be_on_savings_page -->
+                  <span class="method-name">user_should_be_on_savings_page</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class=&apos;nav-toggle&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at pages.BankingDropDownPage.click_on_hamburger_icon(BankingDropDownPage.java:30)
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.xpath: //*[@class=&apos;nav-toggle&apos;]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 22 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7ee41a58 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 29 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;nav-toggle&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os=&apos;android&apos;, newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_savings_page}, device.category: PHONE, device.majorVersion: 8, device.manufacture: samsung, device.model: SM-N950F, device.name: Galaxy Note 8 A0259, device.os: Android, device.screenSize: 1080x2220, device.serialNumber: 988b5a43383648315830, device.version: 8.0.0, deviceQuery: @os=&apos;android&apos;, deviceUDID: 988b5a43383648315830, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7788, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_savings_page, udid: 988b5a43383648315830, useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-14_17-12-44-12279389-66f0-411f-828d-0a054842fb0a
+*** Element info: {Using=xpath, value=//*[@class=&apos;nav-toggle&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 31 more
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_savings_page">
+                  </a> <!-- user_should_be_on_savings_page -->
+                  <span class="method-name">user_should_be_on_savings_page</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.xpath: //h3[text()=&apos;Is this your zip code?&apos;]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at io.appium.java_client.ios.IOSElement$$EnhancerByCGLIB$$d311658.isDisplayed(&lt;generated&gt;)
+	at pages.banking.SavingsMainPage.if_zip_code_is_present_then_handle(SavingsMainPage.java:38)
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:34)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@60d0f54d (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 24 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//h3[text()=&apos;Is this your zip code?&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {PNC: PNC_IOS_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, automationName: XCUITest, browserName: safari, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_IOS_Web, browserName: safari, deviceQuery: @os=&apos;ios&apos;, newSessionWaitTimeout: 300.0, platformName: iOS, testName: user_should_be_on_savings_page}, device.category: PHONE, device.majorVersion: 11, device.manufacture: Apple, device.model: iPhone 8+, device.name: iPhone 8 Plus B0166, device.os: iOS, device.screenSize: 1242x2208, device.serialNumber: 81fbdb60549592832dd27664726..., device.version: 11.1, deviceQuery: @os=&apos;ios&apos;, deviceUDID: 81fbdb60549592832dd27664726..., dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7789, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: IOS, platformName: IOS, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_savings_page, udid: 81fbdb60549592832dd27664726..., useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-14_17-12-48-507efa13-c942-4634-a3b5-63f9afe4cf06
+*** Element info: {Using=xpath, value=//h3[text()=&apos;Is this your zip code?&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 26 more
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-failed -->
+          <div class="suite-Test_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.CheckingRelatedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_checking_page">
+                  </a> <!-- user_should_be_on_checking_page -->
+                  <span class="method-name">user_should_be_on_checking_page</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class=&apos;nav-toggle&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at pages.BankingDropDownPage.click_on_hamburger_icon(BankingDropDownPage.java:30)
+	at tests.CheckingRelatedTest.user_should_be_on_checking_page(CheckingRelatedTest.java:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.xpath: //*[@class=&apos;nav-toggle&apos;]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 22 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@79eff6bf (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 29 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;nav-toggle&apos;]&quot;}
+  (Session info: chrome=71.0.3578.99)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os=&apos;android&apos;, newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_checking_...}, device.category: PHONE, device.majorVersion: 5, device.manufacture: HUAWEI, device.model: ALE-L02, device.name: HUAWEI ALE-L02, device.os: Android, device.screenSize: 720x1280, device.serialNumber: N2K7N16811000808, device.version: 5.0.1, deviceQuery: @os=&apos;android&apos;, deviceUDID: N2K7N16811000808, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7787, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_checking_..., udid: N2K7N16811000808, useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-14_17-12-37-b46dbd2a-8c56-4ce5-a400-1bb881e51ecd
+*** Element info: {Using=xpath, value=//*[@class=&apos;nav-toggle&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 31 more
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-failed -->
+          <div class="suite-Test_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.CreditCardsRelatedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_credit_cards_page">
+                  </a> <!-- user_should_be_on_credit_cards_page -->
+                  <span class="method-name">user_should_be_on_credit_cards_page</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class=&apos;nav-toggle&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at pages.BankingDropDownPage.click_on_hamburger_icon(BankingDropDownPage.java:30)
+	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.xpath: //*[@class=&apos;nav-toggle&apos;]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 22 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5f9658a3 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 29 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;nav-toggle&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os=&apos;android&apos;, newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_credit_ca...}, device.category: PHONE, device.majorVersion: 8, device.manufacture: samsung, device.model: SM-N950F, device.name: Galaxy Note 8 A0259, device.os: Android, device.screenSize: 1080x2220, device.serialNumber: 988b5a43383648315830, device.version: 8.0.0, deviceQuery: @os=&apos;android&apos;, deviceUDID: 988b5a43383648315830, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7780, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_credit_ca..., udid: 988b5a43383648315830, useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-14_17-11-10-1294f156-0993-4719-b66b-c713e193ee42
+*** Element info: {Using=xpath, value=//*[@class=&apos;nav-toggle&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 31 more
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_credit_cards_page">
+                  </a> <!-- user_should_be_on_credit_cards_page -->
+                  <span class="method-name">user_should_be_on_credit_cards_page</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class=&apos;nav-toggle&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at pages.BankingDropDownPage.click_on_hamburger_icon(BankingDropDownPage.java:30)
+	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.xpath: //*[@class=&apos;nav-toggle&apos;]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 22 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7e19eca6 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 29 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;nav-toggle&apos;]&quot;}
+  (Session info: chrome=71.0.3578.99)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os=&apos;android&apos;, newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_credit_ca...}, device.category: PHONE, device.majorVersion: 5, device.manufacture: HUAWEI, device.model: HUAWEI GRA-L09, device.name: HUAWEI A0141, device.os: Android, device.screenSize: 1080x1920, device.serialNumber: S7M0215829004355, device.version: 5.0, deviceQuery: @os=&apos;android&apos;, deviceUDID: S7M0215829004355, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7784, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_credit_ca..., udid: S7M0215829004355, useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-14_17-12-18-81650d5a-3227-469a-aff9-54c43fd43f30
+*** Element info: {Using=xpath, value=//*[@class=&apos;nav-toggle&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 31 more
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_credit_cards_page">
+                  </a> <!-- user_should_be_on_credit_cards_page -->
+                  <span class="method-name">user_should_be_on_credit_cards_page</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class=&apos;nav-toggle&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at pages.BankingDropDownPage.click_on_hamburger_icon(BankingDropDownPage.java:30)
+	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.xpath: //*[@class=&apos;nav-toggle&apos;]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at io.appium.java_client.ios.IOSElement$$EnhancerByCGLIB$$d311658.isDisplayed(&lt;generated&gt;)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 22 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@407ad05 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 29 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//*[@class=&apos;nav-toggle&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {PNC: PNC_IOS_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, automationName: XCUITest, browserName: safari, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_IOS_Web, browserName: safari, deviceQuery: @os=&apos;ios&apos;, newSessionWaitTimeout: 300.0, platformName: iOS, testName: user_should_be_on_credit_ca...}, device.category: PHONE, device.majorVersion: 11, device.manufacture: Apple, device.model: iPhone 8+, device.name: iPhone 8 Plus B0166, device.os: iOS, device.screenSize: 1242x2208, device.serialNumber: 81fbdb60549592832dd27664726..., device.version: 11.1, deviceQuery: @os=&apos;ios&apos;, deviceUDID: 81fbdb60549592832dd27664726..., dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7791, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: IOS, platformName: IOS, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_credit_ca..., udid: 81fbdb60549592832dd27664726..., useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-14_17-12-23-9ceb524e-1332-4f54-93e3-c1c3d5046e30
+*** Element info: {Using=xpath, value=//*[@class=&apos;nav-toggle&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 31 more
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-failed -->
+          <div class="suite-Test_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchResultsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_item_displayed_in_search_results_list">
+                  </a> <!-- verify_item_displayed_in_search_results_list -->
+                  <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_item_displayed_in_search_results_list">
+                  </a> <!-- verify_item_displayed_in_search_results_list -->
+                  <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_item_displayed_in_search_results_list">
+                  </a> <!-- verify_item_displayed_in_search_results_list -->
+                  <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_item_displayed_in_search_results_list">
+                  </a> <!-- verify_item_displayed_in_search_results_list -->
+                  <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_item_displayed_in_search_results_list">
+                  </a> <!-- verify_item_displayed_in_search_results_list -->
+                  <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-passed -->
+          <div class="suite-Test_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SavingsRelatedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_savings_page">
+                  </a> <!-- user_should_be_on_savings_page -->
+                  <span class="method-name">user_should_be_on_savings_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-passed -->
+          <div class="suite-Test_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckingRelatedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_checking_page">
+                  </a> <!-- user_should_be_on_checking_page -->
+                  <span class="method-name">user_should_be_on_checking_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_checking_page">
+                  </a> <!-- user_should_be_on_checking_page -->
+                  <span class="method-name">user_should_be_on_checking_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_checking_page">
+                  </a> <!-- user_should_be_on_checking_page -->
+                  <span class="method-name">user_should_be_on_checking_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_checking_page">
+                  </a> <!-- user_should_be_on_checking_page -->
+                  <span class="method-name">user_should_be_on_checking_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_checking_page">
+                  </a> <!-- user_should_be_on_checking_page -->
+                  <span class="method-name">user_should_be_on_checking_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-passed -->
+          <div class="suite-Test_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CreditCardsRelatedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_credit_cards_page">
+                  </a> <!-- user_should_be_on_credit_cards_page -->
+                  <span class="method-name">user_should_be_on_credit_cards_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_credit_cards_page">
+                  </a> <!-- user_should_be_on_credit_cards_page -->
+                  <span class="method-name">user_should_be_on_credit_cards_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_credit_cards_page">
+                  </a> <!-- user_should_be_on_credit_cards_page -->
+                  <span class="method-name">user_should_be_on_credit_cards_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-passed -->
+        </div> <!-- panel Test_Automation -->
+        <div panel-name="test-xml-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Rahee\IdeaProjects\PNCMobile\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;12&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Test Automation&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Search Android&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SearchResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Android --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Search IOS&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;IOS&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SearchResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search IOS --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Checking Android&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckingRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checking Android --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Checking IOS&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;IOS&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckingRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checking IOS --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Savings Android&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SavingsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Savings Android --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Savings IOS&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;IOS&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SavingsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Savings IOS --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Credit Cards Android&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CreditCardsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Credit Cards Android --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Credit Cards IOS&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;IOS&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CreditCardsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Credit Cards IOS --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Search Android 2&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SearchResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Android 2 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Search IOS 2&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;IOS&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SearchResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search IOS 2 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Checking Android 2&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckingRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checking Android 2 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Checking IOS 2&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;IOS&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckingRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checking IOS 2 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Savings Android 2&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SavingsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Savings Android 2 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Savings IOS 2&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;IOS&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SavingsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Savings IOS 2 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Credit Cards Android 2&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CreditCardsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Credit Cards Android 2 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Credit Cards IOS 2&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;IOS&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CreditCardsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Credit Cards IOS 2 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Search Android 3&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SearchResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Android 3 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Search IOS 3&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;IOS&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SearchResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search IOS 3 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Checking Android 3&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckingRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checking Android 3 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Checking IOS 3&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;IOS&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckingRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checking IOS 3 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Savings Android 3&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SavingsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Savings Android 3 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Savings IOS 3&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;IOS&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SavingsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Savings IOS 3 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Credit Cards Android 3&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CreditCardsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Credit Cards Android 3 --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Credit Cards IOS 3&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;IOS&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CreditCardsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Credit Cards IOS 3 --&gt;
+&lt;/suite&gt; &lt;!-- Test Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Search Android (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search IOS (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checking Android (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checking IOS (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Savings Android (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Savings IOS (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Credit Cards Android (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Credit Cards IOS (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Android 2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search IOS 2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checking Android 2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checking IOS 2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Savings Android 2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Savings IOS 2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Credit Cards Android 2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Credit Cards IOS 2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Android 3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search IOS 3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checking Android 3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checking IOS 3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Savings Android 3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Savings IOS 3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Credit Cards Android 3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Credit Cards IOS 3 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Automation');
+function tableData_Test_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verify_item_displayed_in_search_results_list')
+data.setCell(0, 2, 'tests.SearchResultsTest')
+data.setCell(0, 3, 47345);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify_item_displayed_in_search_results_list')
+data.setCell(1, 2, 'tests.SearchResultsTest')
+data.setCell(1, 3, 47337);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verify_item_displayed_in_search_results_list')
+data.setCell(2, 2, 'tests.SearchResultsTest')
+data.setCell(2, 3, 47240);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'user_should_be_on_checking_page')
+data.setCell(3, 2, 'tests.CheckingRelatedTest')
+data.setCell(3, 3, 44024);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'user_should_be_on_savings_page')
+data.setCell(4, 2, 'tests.SavingsRelatedTest')
+data.setCell(4, 3, 39548);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'user_should_be_on_checking_page')
+data.setCell(5, 2, 'tests.CheckingRelatedTest')
+data.setCell(5, 3, 38374);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'user_should_be_on_savings_page')
+data.setCell(6, 2, 'tests.SavingsRelatedTest')
+data.setCell(6, 3, 38316);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'user_should_be_on_checking_page')
+data.setCell(7, 2, 'tests.CheckingRelatedTest')
+data.setCell(7, 3, 36523);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verify_item_displayed_in_search_results_list')
+data.setCell(8, 2, 'tests.SearchResultsTest')
+data.setCell(8, 3, 35329);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'user_should_be_on_credit_cards_page')
+data.setCell(9, 2, 'tests.CreditCardsRelatedTest')
+data.setCell(9, 3, 33739);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'user_should_be_on_savings_page')
+data.setCell(10, 2, 'tests.SavingsRelatedTest')
+data.setCell(10, 3, 28531);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'user_should_be_on_savings_page')
+data.setCell(11, 2, 'tests.SavingsRelatedTest')
+data.setCell(11, 3, 27898);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'user_should_be_on_credit_cards_page')
+data.setCell(12, 2, 'tests.CreditCardsRelatedTest')
+data.setCell(12, 3, 27205);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'user_should_be_on_checking_page')
+data.setCell(13, 2, 'tests.CheckingRelatedTest')
+data.setCell(13, 3, 26877);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'user_should_be_on_credit_cards_page')
+data.setCell(14, 2, 'tests.CreditCardsRelatedTest')
+data.setCell(14, 3, 24229);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'user_should_be_on_checking_page')
+data.setCell(15, 2, 'tests.CheckingRelatedTest')
+data.setCell(15, 3, 22013);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'user_should_be_on_credit_cards_page')
+data.setCell(16, 2, 'tests.CreditCardsRelatedTest')
+data.setCell(16, 3, 21916);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'user_should_be_on_credit_cards_page')
+data.setCell(17, 2, 'tests.CreditCardsRelatedTest')
+data.setCell(17, 3, 21886);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'user_should_be_on_savings_page')
+data.setCell(18, 2, 'tests.SavingsRelatedTest')
+data.setCell(18, 3, 21476);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'user_should_be_on_savings_page')
+data.setCell(19, 2, 'tests.SavingsRelatedTest')
+data.setCell(19, 3, 21228);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verify_item_displayed_in_search_results_list')
+data.setCell(20, 2, 'tests.SearchResultsTest')
+data.setCell(20, 3, 21031);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'user_should_be_on_credit_cards_page')
+data.setCell(21, 2, 'tests.CreditCardsRelatedTest')
+data.setCell(21, 3, 20806);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'user_should_be_on_checking_page')
+data.setCell(22, 2, 'tests.CheckingRelatedTest')
+data.setCell(22, 3, 20005);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verify_item_displayed_in_search_results_list')
+data.setCell(23, 2, 'tests.SearchResultsTest')
+data.setCell(23, 3, 15019);
+window.suiteTableData['Test_Automation']= { tableData: data, tableDiv: 'times-div-Test_Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 minutes</span>
+              <div id="times-div-Test_Automation">
+              </div> <!-- times-div-Test_Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, public void tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page())</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IOS, public void tests.CheckingRelatedTest.user_should_be_on_checking_page())</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, public void tests.SearchResultsTest.verify_item_displayed_in_search_results_list())</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IOS, public void tests.SearchResultsTest.verify_item_displayed_in_search_results_list())</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IOS, public void tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page())</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, public void tests.SavingsRelatedTest.user_should_be_on_savings_page())</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, public void tests.CheckingRelatedTest.user_should_be_on_checking_page())</span>
+                <span class="method-start">2 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IOS, public void tests.SavingsRelatedTest.user_should_be_on_savings_page())</span>
+                <span class="method-start">4 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IOS, public void tests.SearchResultsTest.verify_item_displayed_in_search_results_list())</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, public void tests.CheckingRelatedTest.user_should_be_on_checking_page())</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IOS, public void tests.CheckingRelatedTest.user_should_be_on_checking_page())</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, public void tests.SearchResultsTest.verify_item_displayed_in_search_results_list())</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">24044 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">28943 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">30928 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">31348 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">32313 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">32447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">32867 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_checking_page</span>
+                <span class="method-start">34116 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_should_be_on_savings_page</span>
+                <span class="method-start">35075 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                <span class="method-start">37391 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">37461 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_should_be_on_credit_cards_page</span>
+                <span class="method-start">38892 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">39941 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_credit_cards_page</span>
+                <span class="method-start">41928 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">42267 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_should_be_on_savings_page</span>
+                <span class="method-start">43338 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                <span class="method-start">44628 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_checking_page</span>
+                <span class="method-start">49175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_checking_page</span>
+                <span class="method-start">50651 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                <span class="method-start">51830 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56130 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56587 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60811 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, public void tests.SavingsRelatedTest.user_should_be_on_savings_page())</span>
+                <span class="method-start">64946 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65663 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IOS, public void tests.SavingsRelatedTest.user_should_be_on_savings_page())</span>
+                <span class="method-start">66084 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, public void tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page())</span>
+                <span class="method-start">69812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IOS, public void tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page())</span>
+                <span class="method-start">74606 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75668 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77528 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, public void tests.SearchResultsTest.verify_item_displayed_in_search_results_list())</span>
+                <span class="method-start">81574 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81657 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">84145 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84632 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IOS, public void tests.SearchResultsTest.verify_item_displayed_in_search_results_list())</span>
+                <span class="method-start">84648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87159 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, public void tests.CheckingRelatedTest.user_should_be_on_checking_page())</span>
+                <span class="method-start">89070 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IOS, public void tests.CheckingRelatedTest.user_should_be_on_checking_page())</span>
+                <span class="method-start">89993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93199 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_savings_page</span>
+                <span class="method-start">94225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, public void tests.SavingsRelatedTest.user_should_be_on_savings_page())</span>
+                <span class="method-start">96305 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">100163 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IOS, public void tests.SavingsRelatedTest.user_should_be_on_savings_page())</span>
+                <span class="method-start">100388 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_should_be_on_credit_cards_page</span>
+                <span class="method-start">102742 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">107404 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">107633 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_should_be_on_savings_page</span>
+                <span class="method-start">115588 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">118058 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                <span class="method-start">118402 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">119582 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">120886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122123 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">123550 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">124885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_checking_page</span>
+                <span class="method-start">127074 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Android, public void tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page())</span>
+                <span class="method-start">127077 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_should_be_on_checking_page</span>
+                <span class="method-start">127593 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                <span class="method-start">128692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_should_be_on_savings_page</span>
+                <span class="method-start">130809 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IOS, public void tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page())</span>
+                <span class="method-start">132431 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">133421 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">138449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">144121 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_should_be_on_savings_page</span>
+                <span class="method-start">145909 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">147614 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">152039 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">163998 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">165448 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">174380 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">176029 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_credit_cards_page</span>
+                <span class="method-start">176346 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">185459 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">200575 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">206181 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">212235 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_checking_page</span>
+                <span class="method-start">214088 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                <span class="method-start">218528 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_credit_cards_page</span>
+                <span class="method-start">220171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">229855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">247377 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">250612 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">265873 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_should_be_on_credit_cards_page</span>
+                <span class="method-start">274902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">296790 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

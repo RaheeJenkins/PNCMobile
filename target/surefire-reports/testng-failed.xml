@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="12" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Automation]" parallel="tests">
+  <test thread-count="12" verbose="0" name="Savings Android(failed)" parallel="tests">
+    <parameter name="platform" value="Android"/>
+    <classes>
+      <class name="tests.SavingsRelatedTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpAllPages"/>
+          <include name="user_should_be_on_savings_page"/>
+        </methods>
+      </class> <!-- tests.SavingsRelatedTest -->
+    </classes>
+  </test> <!-- Savings Android(failed) -->
+  <test thread-count="12" verbose="0" name="Credit Cards Android(failed)" parallel="tests">
+    <parameter name="platform" value="Android"/>
+    <classes>
+      <class name="tests.CreditCardsRelatedTest">
+        <methods>
+          <include name="setUpAllPages"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="user_should_be_on_credit_cards_page"/>
+        </methods>
+      </class> <!-- tests.CreditCardsRelatedTest -->
+    </classes>
+  </test> <!-- Credit Cards Android(failed) -->
+  <test thread-count="12" verbose="0" name="Search Android(failed)" parallel="tests">
+    <parameter name="platform" value="Android"/>
+    <classes>
+      <class name="tests.SearchResultsTest">
+        <methods>
+          <include name="verify_item_displayed_in_search_results_list"/>
+          <include name="setUp"/>
+          <include name="setUpAllPages"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.SearchResultsTest -->
+    </classes>
+  </test> <!-- Search Android(failed) -->
+  <test thread-count="12" verbose="0" name="Savings IOS(failed)" parallel="tests">
+    <parameter name="platform" value="IOS"/>
+    <classes>
+      <class name="tests.SavingsRelatedTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpAllPages"/>
+          <include name="user_should_be_on_savings_page"/>
+        </methods>
+      </class> <!-- tests.SavingsRelatedTest -->
+    </classes>
+  </test> <!-- Savings IOS(failed) -->
+  <test thread-count="12" verbose="0" name="Credit Cards Android 2(failed)" parallel="tests">
+    <parameter name="platform" value="Android"/>
+    <classes>
+      <class name="tests.CreditCardsRelatedTest">
+        <methods>
+          <include name="setUpAllPages"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="user_should_be_on_credit_cards_page"/>
+        </methods>
+      </class> <!-- tests.CreditCardsRelatedTest -->
+    </classes>
+  </test> <!-- Credit Cards Android 2(failed) -->
+  <test thread-count="12" verbose="0" name="Savings IOS 2(failed)" parallel="tests">
+    <parameter name="platform" value="IOS"/>
+    <classes>
+      <class name="tests.SavingsRelatedTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpAllPages"/>
+          <include name="user_should_be_on_savings_page"/>
+        </methods>
+      </class> <!-- tests.SavingsRelatedTest -->
+    </classes>
+  </test> <!-- Savings IOS 2(failed) -->
+  <test thread-count="12" verbose="0" name="Checking Android 3(failed)" parallel="tests">
+    <parameter name="platform" value="Android"/>
+    <classes>
+      <class name="tests.CheckingRelatedTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpAllPages"/>
+          <include name="user_should_be_on_checking_page"/>
+        </methods>
+      </class> <!-- tests.CheckingRelatedTest -->
+    </classes>
+  </test> <!-- Checking Android 3(failed) -->
+  <test thread-count="12" verbose="0" name="Savings Android 3(failed)" parallel="tests">
+    <parameter name="platform" value="Android"/>
+    <classes>
+      <class name="tests.SavingsRelatedTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpAllPages"/>
+          <include name="user_should_be_on_savings_page"/>
+        </methods>
+      </class> <!-- tests.SavingsRelatedTest -->
+    </classes>
+  </test> <!-- Savings Android 3(failed) -->
+  <test thread-count="12" verbose="0" name="Savings IOS 3(failed)" parallel="tests">
+    <parameter name="platform" value="IOS"/>
+    <classes>
+      <class name="tests.SavingsRelatedTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpAllPages"/>
+          <include name="user_should_be_on_savings_page"/>
+        </methods>
+      </class> <!-- tests.SavingsRelatedTest -->
+    </classes>
+  </test> <!-- Savings IOS 3(failed) -->
+  <test thread-count="12" verbose="0" name="Credit Cards IOS 2(failed)" parallel="tests">
+    <parameter name="platform" value="IOS"/>
+    <classes>
+      <class name="tests.CreditCardsRelatedTest">
+        <methods>
+          <include name="setUpAllPages"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="user_should_be_on_credit_cards_page"/>
+        </methods>
+      </class> <!-- tests.CreditCardsRelatedTest -->
+    </classes>
+  </test> <!-- Credit Cards IOS 2(failed) -->
+</suite> <!-- Failed suite [Test Automation] -->
